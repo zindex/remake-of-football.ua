@@ -1,0 +1,60 @@
+/*
+* Filename: styles.ie.css
+* Description: Personal styles for Internet Explorer
+*/
+
+
+/* --------------------------------------------------------------------------------
+   [All Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
+html { font-size: 100.01%; }
+
+/* --------------------------------------------------------------------------------
+   [6-7 Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
+
+.line, .vlist__data {zoom:1;}
+
+
+
+/* ===== display:inline-block; emulation ===== */
+
+.ico  {*display:inline; zoom:1;}
+
+.box__ctrl {margin-top:-32px;}
+
+.box__txt {position:relative; top:10px;}
+
+
+.bnt_type_black {position:relative;}
+
+/* --------------------------------------------------------------------------------
+   [6 Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
+
+* html body {font-size:12px;}
+
+
+* html .main__right {zoom:1; overflow:hidden;}
+
+* html .ico {overflow:hidden; zoom:1;}
+
+* html a {text-decoration:none;}
+
+* html .main__cnt {zoom:1;}
+
+* html .main__left {}
+
+
+.main {}
+
+* html .box__more {bottom:4px;}
+
+* html .box {zoom:1;}
+
+
+* html .vlist__vote {font:0/0 a;}
+
+/* --------------------------------------------------------------------------------
+   [7 Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
